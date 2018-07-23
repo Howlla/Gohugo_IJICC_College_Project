@@ -1,0 +1,406 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "IJICC"
+
+# Metadata
+[params]
+  author = "IJICC"
+  description = "International Journal of Innovative Computing and Communication"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "../images/hero_bg.jpg"
+  title = "International Journal of Innovative Computing and Communication"
+  description = "Researchers are invited to submit their manuscript for upcoming issues of IJICC"
+
+# Navigation section
+[params.nav]
+  mission = "About IJICC"
+  services = "Guidelines"
+  team = "Editorial Board"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Objective"
+    subtitle = "The objective of International Journal of Innovative Computing and Communication (IJICC) is to help professionals working in the field, educators and policy makers to contribute, to disseminate information and to learn from each other's work. IJICC also aims at establishing channels of communication between Centres of Excellence for computer applications, computer engineers, software developers and users worldwide."
+    description = "<div style='margin-bottom:50px'><p>IJICC is a refereed international journal, published quarterly, providing an international forum and an authoritative source of information in the field of Computer Engineering, related Information Technology and Communication Technology.</p></div>"
+  [[params.mission.item]]
+    weight = 2
+    name = "strategy"
+    title = "Topics Covered"
+    subtitle = "The broad spectrum of the journal includes the topic but not limited to:"
+    description = "<div class='row '><div class='col-md-4'><ul class='checked'> <li>Algorithm/protocol design and analysis </li> <li>Ad hoc networks for pervasive communications</li><li>Advanced Computing Architectures and New Programming Models</li><li>Artificial Intelligence </li><li>Broadband wireless technologies</li><li>Cloud Computing and Applications</li><li>Collaborative applications</li> <li>Communication architectures for pervasive computing</li> <li>Communication and Networking Systems</li><li>Computer Architecture and Embedded Systems</li><li>Computer Vision</li></ul></div><div class='col-md-4'><ul class='checked'> <li>Computer Science and Its applications</li><li>Database Theory and Application</li> <li>Data Base Management System</li><li>Data Mining</li> <li>Decision making</li><li>Digital signal processing theory </li><li>Distributed Sensor Networks</li><li>Distributed Computing</li><li>Distributed and cooperative control systems</li><li>Evolutionary computing and intelligent systems</li><li>Expert approaches</li><li>Fault tolerance and diagnostics</li> </ul></div><div class='col-md-4'><ul class='checked'><li>GPS and location-based applications</li><li>Grid Networking/ Computing</li><li>Human Computer Interaction</li><li>Image analysis and processing</li><li>Information and data security</li><li>Mobile Computing and Applications</li><li>Network Modeling and Simulation<li>Networking theory and technologies</li><li>Pattern Recognition</li><li>Perception and semantic interpretation</li><li>Routing, Medium access control (MAC)</li><li>Soft Computing</li><li>Speech interface; Speech processing</li><li>Vision-based applications</li></div></div>"
+
+  [[params.mission.item]]
+     weight = 3
+    name = "analysis"
+    title = "Call for Papers"
+    subtitle = "Authors are invited to submit long papers, work in progress papers, Case Study Papers, Masters/M.Phil, PhD Research, contribution from academic, industry and research institutions.<div class> <p class='text-center h3'>We accept papers throughout the Year</p></div><div class> <p class='text-center '>Submit your paper to:<a href='mailto: IJICC.editor@gmail.com'><strong>IJICC.editor@gmail.com</strong></a> </p></div>"
+    description ="<br/>"
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://drive.google.com/file/d/1ustieZnGlRE9Gd4bHXLqBY_sP-j7d7Lv/view?usp=sharing"
+  title = "Author Guidelines"
+  description = "Guidelines to be followed by authors in order to submit papers to IJICC"
+
+  [[params.services.item]]
+    icon = "icon-ban"
+    title = "<p></p>"
+    description = "Submitted papers should not have been previously published nor be currently under consideration for publication elsewhere."
+
+  [[params.services.item]]
+    icon = "icon-check"
+    title = "<p></p>"
+    description = "All authors must declare they have read and agreed to the content of the submitted manuscript."
+
+  [[params.services.item]]
+    icon = "icon-book-open"
+    title = "<p></p>"
+    description = "A full statement of our Ethical Guidelines for Authors is available. All authors must declare they have read and agreed to the content of the submitted manuscript."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "<p></p>"
+    description = "All papers are refereed through a double blind process. A guide for authors, sample copies and other relevant information for submitting papers are available on the Submission of Papers web-page."
+
+  [[params.services.item]]
+    icon = "icon-note"
+    title = "<p></p>"
+    description = "You may send one copy in the form of an MS Word file attached to an e-mail (details of file formats in Author Guidelines)"
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "<p></p>"
+    description = "Please send your manuscripts to the email: IJICC.editor@gmail.com"
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Editorial Board"
+  description = "Submitted papers will be followed through a double blind peer review process by technical committees of the Conference."
+
+  [[params.team.item]]
+    name = "Dr. Vincenzo Piuri"
+    position = "University of Milan, Italy"
+
+  [[params.team.item]]
+    name = "Dr. Valentina Emilia Balas"
+    position = "Aurel Vlaicu University of Arad, Romania"
+  
+  [[params.team.item]]
+    name = "Dr. Marius Balas"
+    position = "Aurel Vlaicu University of Arad, Romania"
+
+  [[params.team.item]]
+    name = "Dr. Mohamed Bouhlel"
+    position = "Sfax University, Tunisia"
+  [[params.team.item]]
+    name = "Dr. Aboul Ella Hassanien"
+    position = "Cairo University, Egypt"
+  [[params.team.item]]
+    name = "Dr. Cenap Ozel"
+    position = "King Abdulaziz University, Saudi Arabi"
+
+  [[params.team.item]]
+    name = "Dr. Ashiq Anjum"
+    position = "University of Derby, Bristol, UK"
+  [[params.team.item]]
+    name = "Dr. Mischa Dohler"
+    position = "Kings College London, UK"
+  [[params.team.item]]
+    name = "Dr. Padmanaban"
+    position = "University of Johannesburg, South Africa"
+
+  [[params.team.item]]
+    name = "Dr. Siddhartha Bhattacharyya"
+    position = "RCC Institute of Information Technology"
+  [[params.team.item]]
+    name = "Dr. David Camacho"
+    position = "Universidad Autonoma de Madrid,Spain"
+  [[params.team.item]]
+    name = "Dr. Parmanand"
+    position = "Galgotias University, UP"
+
+  [[params.team.item]]
+    name = "Dr. Abu Yousuf"
+    position = "University Malaysia Pahang Gambang, Malaysia"
+  [[params.team.item]]
+    name = "Dr. Salah-ddine Krit"
+    position = "University Ibn Zohr Agadir, Morocco"
+  [[params.team.item]]
+    name = "Dr. Sanjay Kumar Biswash"
+    position = "INFOCOMM Lab, Russia"
+
+  [[params.team.item]]
+    name = "Dr. Maryna Yena S"
+    position = "Medical University of Kiev, Ukraine"
+  [[params.team.item]]
+    name = "Dr. Giorgos Karagiannidis"
+    position = "University of Thessaloniki, Greece"
+  [[params.team.item]]
+    name = "Dr. Tanuja srivatsava"
+    position = "Dept of Mathematics, IIT Roorkee"
+
+  [[params.team.item]]
+    name = "Dr. D Jude Hemanthf"
+    position = "Karunya University, Coimbatore"
+  [[params.team.item]]
+    name = "Dr. Tiziana Catarci"
+    position = "Sapienza University, Rome, Italy"
+  [[params.team.item]]
+    name = "Dr. Salvatore Gaglio"
+    position = "University Degli Studi di Palermo, Italy"
+
+  [[params.team.item]]
+    name = "Dr. Bozidar Klicek"
+    position = "University of Zagreb, Croatia"
+  [[params.team.item]]
+    name = "Dr. Marcin Paprzycki"
+    position = "Polish Academy of Science, Poland"
+  [[params.team.item]]
+    name = "Dr. A.K. Singh"
+    position = "NIT Kurukshetra, India"
+
+  [[params.team.item]]
+    name = "Dr. Anil Kumar Ahlawat"
+    position = "KIET Group of Institutes, India"
+  [[params.team.item]]
+    name = "Dr. Chang-Shing Lee"
+    position = "National University of Tainan, Taiwan"
+  [[params.team.item]]
+    name = "Dr. Paolo Bellavista"
+    position = "Alma Mater Studiorum Universita` di Bologna"
+  [[params.team.item]]
+    name = "Dr. Sanjay Misra"
+    position = "Covenant University, Nigeria"
+  [[params.team.item]]
+    name = "Dr. Benatiallah ali"
+    position = "Adrar University, Algeria"
+  [[params.team.item]]
+    name = "Dr. Suresh Chandra Satapathy"
+    position = "PVPSIT, Vijayawada, India"
+
+  [[params.team.item]]
+    name = "Dr. Marylene Saldon-Eder"
+    position = "Mindanao University of Science and Technology"
+  [[params.team.item]]
+    name = "Miss Rubelyn W. Coronel"
+    position = "Datu Abing St., Calinan, Davao City"
+  [[params.team.item]]
+    name = "Dr. Kei Eguchi"
+    position = "Fukuoka Institute of Technology"
+   
+  [[params.team.item]]
+    name = "Dr. Zoltan Horvath"
+    position = "Professor, Kasetsart University"
+  [[params.team.item]]
+    name = "Dr. AKM Matiul Alam"
+    position = "Vancouver British Columbia, Canada"
+  [[params.team.item]]
+    name = "Dr. Joong Hoon Jay Kim"
+    position = "Korea University"
+
+  [[params.team.item]]
+    name = "Dr. Sheng-Lung Peng"
+    position = "National Dong Swa Uinversity, Taiwan"
+  [[params.team.item]]
+    name = "Dr. Daniela Lopez De Luise"
+    position = "CI2S Lab, Argentina"
+  [[params.team.item]]
+    name = "Dr. Dac-Nhuong Le"
+    position = "Haiphong University, Vietnam"
+
+  [[params.team.item]]
+    name = "Dr. Dusanka Boskovic"
+    position = "University of Sarajevo, Sarajevo"
+  [[params.team.item]]
+    name = "Dr. Periklis Chat Zimisios"
+    position = "Alexander TEI of Thessaloniki, Greece"
+  [[params.team.item]]
+    name = "Dr. Nhu Gia Nguyen"
+    position = "Duy Tan University, Vietnam"
+   
+  [[params.team.item]]
+    name = "Dr. Huynh Thanh Binh"
+    position = "Hanoi University of Science & Technology"
+  [[params.team.item]]
+    name = "Dr. AKM Matiul Alam"
+    position = "Vancouver British Columbia, Canada"
+  [[params.team.item]]
+    name = "Dr. Joong Hoon Jay Kim"
+    position = "Korea University"
+
+  [[params.team.item]]
+    name = "Dr. Sheng-Lung Peng"
+    position = "National Dong Swa Uinversity, Taiwan"
+  [[params.team.item]]
+    name = "Dr. Daniela Lopez De Luise"
+    position = "CI2S Lab, Argentina"
+  [[params.team.item]]
+    name = "Dr. Dac-Nhuong Le"
+    position = "Haiphong University, Vietnam"
+  [[params.team.item]]
+    name = "Dr. Ahmed Faheem Zobaa"
+    position = "Brunel University, London"
+  [[params.team.item]]
+    name = "Dr. Dac-Nhuong Le"
+    position = "Haiphong University, Vietnam"
+  [[params.team.item]]
+    name = "Dr. Olema Vincent"
+    position = "Uganda"
+
+  [[params.team.item]]
+    name = "Dr. Kirti Tyagi"
+    position = "Inha University, Tashkent"
+  [[params.team.item]]
+    name = "Dr. Ladjel Bellatreche"
+    position = "Poitiers University, France"
+  [[params.team.item]]
+    name = "Dr. Victor C.M. Leung"
+    position = "The University of British Columbia, Canada"
+
+  [[params.team.item]]
+    name = "Dr. Huseyin Irmak"
+    position = "Cankiri Karatekin University, Turkey"
+  [[params.team.item]]
+    name = "Dr. Alex Norta"
+    position = "Tallinn University of Technology, Estonia"
+  [[params.team.item]]
+    name = "Dr. Amit Prakash Singh"
+    position = "GGSIPU, Delhi, India"
+  [[params.team.item]]
+    name = "Dr. Abhishek Swaroop"
+    position = " Bhagwan Parshuram Institute of Technology"
+  [[params.team.item]]
+    name = "Prof Christos Douligeris"
+    position = "University of Piraeus, Greece"
+  [[params.team.item]]
+    name = "Prof Christos Douligeris"
+    position = "University of Piraeus, Greece"
+
+  [[params.team.item]]
+    name = "Dr. Brett Edward Trusko"
+    position = "Texas University, Texas"
+  [[params.team.item]]
+    name = "Dr. R.K. Datta"
+    position = "Director, MERIT"
+  [[params.team.item]]
+    name = "Dr. Joel Rodrigues"
+    position = "National Institute of Telecommunications ,Brazil"
+  [[params.team.item]]
+    name = "Dr. Victor Albuquerque"
+    position = "Unniversity of Fortaleza, Brazil"
+  [[params.team.item]]
+    name = "Dr. Atta ur Rehman Khan"
+    position = "King Saud University, Riyadh"
+
+  [[params.team.item]]
+    name = "Dr. Joo Manuel RS Tavares"
+    position = "FEUP - DEMec"
+  [[params.team.item]]
+    name = "Dr. Ravish Saggar"
+    position = "Banarsidas Chandiwal Institute of Information Technology"
+  [[params.team.item]]
+    name = "Dr. Ku Ruhana Ku Mahamud"
+    position = "Universiti Utara Malaysia"
+  [[params.team.item]]
+    name = "Prof. Ghasem D. Najafpour"
+    position = "Babol Noshirvani University of Technology, Iran"
+   
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Contact Us"
+  message = "Email us at IJICC.editor@gmail.com"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>Bhavye Sharma<br>IJICC</small></p>"
+ 
+  
